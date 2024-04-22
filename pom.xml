@@ -92,6 +92,15 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version> <!-- Update this version -->
+				<configuration>
+					<source>16</source> <!-- Update to the Java version supported by Heroku -->
+					<target>16</target> <!-- Update to the Java version supported by Heroku -->
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
