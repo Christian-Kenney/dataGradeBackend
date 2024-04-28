@@ -1,6 +1,8 @@
 INSERT INTO roles (role_id, role) values (1, 'Teacher');
 INSERT INTO roles (role_id, role) values (2, 'Student');
 
+insert into users (user_id, email, name, password, username, role_id) values (1, 'test@email.com', 'Christian Kenney', 'password', 'ckenney1', 1);
+insert into users (user_id, email, name, password, username, role_id) values (2, 'test@email.com', 'Carlos Santana', 'password', 'csantana1', 2);
 insert into users (user_id, email, name, password, username, role_id) values (3, 'bswire2@wired.com', 'Bertie Swire', 'gI7?kl>eSF+WX', 'bswire2', 2);
 insert into users (user_id, email, name, password, username, role_id) values (4, 'ho3@rambler.ru', 'Helen-elizabeth O'' Flaherty', 'bY7(5QAnW5', 'ho3', 2);
 insert into users (user_id, email, name, password, username, role_id) values (5, 'imalcolm4@yandex.ru', 'Innis Malcolm', 'lQ8<gRyH,', 'imalcolm4', 2);
