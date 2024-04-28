@@ -10,7 +10,7 @@ public class CorsConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("http://localhost:3000", "https://datagradebackend-f2ecd09dee7f.herokuapp.com") // Add your frontend URL
+                .allowedOrigins("http://localhost:3000", "https://datagradefrontend-6925e3c9f972.herokuapp.com") // Add your frontend URL
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH") // Add allowed methods
                 .allowedHeaders("*");// Add allowed headers
     }
